@@ -22,6 +22,15 @@ header nav ul li {
     margin-left: 3vw;
 
 }
+h1{
+color: var(--maintext);
+font-size: 40pt;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%, -100%);
+    
+}
 
 a {
     text-decoration: none;
@@ -38,6 +47,7 @@ h2 {
     font-size:larger;
         color: var(--maintext);
         text-align: center;
+        margin-top: 5vh;
     
     }
 
