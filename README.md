@@ -7,7 +7,7 @@ This project aimed to set up an online portfolio to display all of my work as th
 
 ## Credits
 
-The design idea for how to toggle in the work section comes from Rafael Caferati caferati.me
+The design idea for how to hover came from one of our in-class miniprojects. I simply changed it to suit my needs. 
 
 The reset.css file was copied from the class reset file in Module 2 Activity 12. 
 
