@@ -4,7 +4,7 @@
     --hovertext: #0182E7;
     --headertext: #0762B3;
     --highlight: white;
-    --border: solid 2px white
+    --border: solid 2px white;
 }
 
 body {
@@ -34,11 +34,12 @@ a {
 }
 
 h2 {
-
-    color: var(--maintext);
-    text-align: center;
-
-}
+    
+    font-size:larger;
+        color: var(--maintext);
+        text-align: center;
+    
+    }
 
 #about {
     display: flex;
@@ -47,7 +48,8 @@ h2 {
     margin-top: 5vh;
 }
 
-p {
+
+#about p {
     color: var(--maintext);
     width: 70vw;
     line-height: 1.5;
@@ -66,21 +68,11 @@ card {
     color: var(--maintext);
 }
 
-.workcard {
-    color: var(--maintext);
-    border: var(--border);
-}
 
-h3 {
+h3,.workcard {
     color: var(--maintext);
-    border: var(--border);
-    position: relative;
-    margin: -2rem 0 1rem 0;
-    background-color: var (--bg);
     text-align: center;
-    padding: 5px;
-    width: 150px;
-    height: 30px;
+
 }
 
 .row {
@@ -89,31 +81,76 @@ h3 {
     flex-direction: row;
     justify-content: center;
 }
+.primary{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+   
+
+}
+
+.maincard {
+    border: var(--border);
+    width: 88vw;
+    height: 300px;
+   
+}
+.firstproj{
+    display:flex;
+  
+   justify-content: center;
+}
+
+
 
 .column {
     flex: 1 0 30%;
     padding: 20px;
-    /*transition: flex-basis 500ms linear;*/
+    transition: flex-basis 500ms linear;
     margin-bottom: 5vh;
     margin-left: 3vw;
+    border: var(--border);
+    position: relative;
+    background-color: var (--bg);
+    text-align: center;
+    padding: 5px;
+    max-width: 45%;
 }
 
-.column :hover {
+.innercard {
+    border: var(--border);
+}
+.column :hover, .primary :hover {
+   
     box-shadow: 0 30px 50px var(--hovertext);
 
 }
+#contactme {
+    height: 30vh;
+    text-align: center;
+    color: var(--maintext);
+}
 
+.contact {
+   margin-top: 6vh;
+}
+.contact a{
+    text-decoration: underline;
+}
 
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 10vh;
 }
 
 .social {
     margin-top: 5vh;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
 }
 
 a i,
