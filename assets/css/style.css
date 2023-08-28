@@ -120,7 +120,7 @@ h3,.workcard {
     transition: flex-basis 500ms linear;
     margin-bottom: 5vh;
     margin-left: 3vw;
-    border: var(--border);
+   /*border: var(--border);*/
     position: relative;
     background-color: var (--bg);
     text-align: center;
